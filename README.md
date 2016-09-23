@@ -6,3 +6,4 @@ Tähän repoon kootaan kaikki tekislautaan liittyvä ideointi. Yksittäiset sivu
 
 * README - Tämä sivu
 * [Taulukot](https://github.com/drop-table-ryhmatyo/tekislauta-ideointi/blob/master/Taulukot.md)
+* [API](https://github.com/drop-table-ryhmatyo/tekislauta-ideointi/blob/master/API.md)
