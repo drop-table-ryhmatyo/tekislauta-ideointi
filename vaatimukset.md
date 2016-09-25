@@ -12,3 +12,11 @@
 
 * Näyttää yleistietoa palstalle avatuista keskusteluista (viimeisin viesti jne.)
 * Näyttää alueet 
+
+*Keskustelualueet*
+
+* Näyttää 10 viimeisintä keskustelua 
+
+*Keskustelu*
+
+*Näyttää viestin
