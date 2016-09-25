@@ -1,4 +1,4 @@
-**Tekislaudan vaatimukset**
+#Tekislaudan vaatimukset#
 
 1. Keskustelualueiden luominen
 
@@ -8,5 +8,7 @@
 
 4. Viestien lähettäjät **tulee** tunnistaa esim. nickname
 
-#Keskustelupalsta#
+*Keskustelupalsta*
 
+* Näyttää yleistietoa palstalle avatuista keskusteluista (viimeisin viesti jne.)
+* Näyttää alueet 
