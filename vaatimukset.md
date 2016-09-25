@@ -19,4 +19,4 @@
 
 *Keskustelu*
 
-*Näyttää viestin
+* Näyttää viestin
