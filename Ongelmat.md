@@ -14,15 +14,13 @@ Päätimme pitää `tekislauta-server`in dedikoituna pelkästään rajapinnalle,
 
 ### Miten `react-router`in rumat risuaidat saadaan pois?
 
-`react-router`in reitti näyttää oletuksena esimerkiksi tältä:
+`react-router`in reitti näyttää oletuksena `hashHistory`-historiatyyppiä käytettäessä esimerkiksi tältä:
 
     http://tekislauta.fi/#/boards/b/
 
-Tämä johtuu siitä, että frontendin React-sovellus toimii periaatteessa täysin yhdestä .html tiedostosta käsin, eli index.html:stä. Jotta saisimme hienomman reitin, esim
+Halusimme hienomman, virallisemmalta näyttävän reitin `http://tekislauta.fi/boards/b/`, mutta valitettavasti tämänlaisen reitin saa vain käyttäen `browserHistory`-historiatyyppiä. Valitettavasti yllä oleva reitti aiheuttaa sen, että selain tekee GET-pyynnön reitille `/boards/b/` eikä `/`, joten tarvitsisimme jonkinlaisen palvelimen tätä varten.
 
-    http://tekislauta.fi/boards/b/
-
-...tarvitsisimme reititystä serverillä. Meidän onneksemme yllä mainittu `create-react-app-buildpack` [tekee tämän puolestamme](https://github.com/mars/create-react-app-buildpack/blob/1f5369bf4d0c11bed331f9986d573ec52c3d9c0d/README.md#user-content-routing-clean-urls).
+Meidän onneksemme, yllä mainittu `create-react-app-buildpack` [tekee tämän(kin) puolestamme](https://github.com/mars/create-react-app-buildpack/blob/1f5369bf4d0c11bed331f9986d573ec52c3d9c0d/README.md#user-content-routing-clean-urls)!
 
 ## Server
 
