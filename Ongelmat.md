@@ -1,5 +1,11 @@
 # Ongelmat, joihin törmättiin kehityksen aikana
 
+## Yleisiä
+### Lauta vs. perinteinen foorumi
+Päätimme alussa, että haluamme toteuttaa lautamaisen keskustelupalstan (vertaa 4chan, Ylilauta). Toteutusvaiheessa opimme, että lautamainen struktuuri (langat ovat ketju viestejä, langat ja viestit käyttävät samaa ID-ordinaalia) on epäkäytännöllinen toteuttaa ja luo ylimääräisiä ongelmia esimerkiksi serverin DAO-luokkia toteuttaessa.
+
+Lautamainen foorumi on varmasti mahdollista toteuttaa elegantisti, mutta rajoitetun ajan, ajanhallinnan ja osaamisen takia emme päässeet sille tasolle tuotoksen kanssa, kuin olisimme halunneet.
+
 ## Front-end
 
 ### Miten Reactilla vaihdetaan renderöityjä komponentteja?
