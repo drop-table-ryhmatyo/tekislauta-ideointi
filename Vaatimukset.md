@@ -1,22 +1,22 @@
 #Tekislaudan vaatimukset#
 
-1. Keskustelualueiden luominen
+- [ ] Keskustelualueiden luominen
 
-2. Keskusteluiden avausten luominen
+- [x] Keskusteluiden avausten luominen
 
-3. Viestejä keskusteluihin
+- [x] Viestejä keskusteluihin
 
-4. Viestien lähettäjät **tulee** tunnistaa esim. nickname
+- [x] Viestien lähettäjät **tulee** tunnistaa (esim. nickname tai muu)
 
 *Keskustelupalsta*
 
-* Näyttää yleistietoa palstalle avatuista keskusteluista (viimeisin viesti jne.)
-* Näyttää alueet 
+- [ ] Näyttää yleistietoa palstalle avatuista keskusteluista (viimeisin viesti jne.)
+- [x] Näyttää alueet 
 
 *Keskustelualueet*
 
-* Näyttää 10 viimeisintä keskustelua 
+- [x] Näyttää 10 viimeisintä keskustelua 
 
 *Keskustelu*
 
-* Näyttää viestin
+- [x] Näyttää viestit
