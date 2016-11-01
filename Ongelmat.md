@@ -29,7 +29,7 @@ Ongelmaa selvitetään.
 ## Server
 
 ### Projektin julkaisu herokuun
-Applikaatio ei käynnistynyt herokussa, ja schema.sql tiedostoa ei löydy.
+Applikaatio ei käynnisty herokussa, ja schema.sql tiedostoa ei löydy.
 
 Ratkaisu
 
