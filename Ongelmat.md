@@ -23,8 +23,7 @@ Halusimme hienomman, virallisemmalta näyttävän reitin `http://tekislauta.fi/b
 Meidän onneksemme, yllä mainittu `create-react-app-buildpack` [tekee tämän(kin) puolestamme](https://github.com/mars/create-react-app-buildpack/blob/1f5369bf4d0c11bed331f9986d573ec52c3d9c0d/README.md#user-content-routing-clean-urls)!
 
 ### Lankanäkymä kaatoi Chromen jos laudalla ei ollut yhtään lankaa
-Jostain syystä sivu joutui loputtomaan looppiin jos laudalla ei ollut yhtää lankaa mukana.
-Ongelmaa selvitetään.
+Lankanäkymä joutui loputtomaan looppiin jos laudalla ei ollut yhtää lankaa mukana. Ongelma johtui siitä, että sivun logiikka ohjaa selaimen ensimmäiselle lankasivulle (esim `/boards/b/0`) jos käyttäjä yrittää mennä olemassaolemattomalle sivulle (esim. sivulle 5 jos sivuja on 2). Logiikka toteutettiin käytännössä kyselyllä `if (nykyinenSivu >= sivumäärä)`, joka toimii kun `sivumäärä > 0`. Ongelma korjattiin varmistamalla lisäksi, että uudelleenohjausta ei tehdä jos sivuja on vain yksi ja ollaan jo kyseisellä sivulla.
 
 ## Server
 
