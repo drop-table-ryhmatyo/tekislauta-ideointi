@@ -30,5 +30,7 @@ Ongelmaa selvitetään.
 
 ### Projektin julkaisu herokuun
 Applikaatio ei käynnistynyt herokussa, ja schema.sql tiedostoa ei löydy.
+
 Ratkaisu
+
 `mvn clean heroku:deploy`-kommennolla ja herokun maven riippuvuudella saatiin vihdoinkin sovelluus toimimaan. `this.getClass().getResourceAsStream()`-metodilla korjattiin tiedostonlukeminen. 
