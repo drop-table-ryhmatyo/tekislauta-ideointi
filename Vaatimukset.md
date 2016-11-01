@@ -1,6 +1,6 @@
 #Tekislaudan vaatimukset#
 
-- [ ] Keskustelualueiden luominen
+- [x] Keskustelualueiden luominen
 
 - [x] Keskusteluiden avausten luominen
 
