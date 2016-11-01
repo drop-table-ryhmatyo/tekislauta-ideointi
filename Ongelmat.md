@@ -6,6 +6,9 @@ Päätimme alussa, että haluamme toteuttaa lautamaisen keskustelupalstan (verta
 
 Lautamainen foorumi on varmasti mahdollista toteuttaa elegantisti, mutta rajoitetun ajan, ajanhallinnan ja osaamisen takia emme päässeet sille tasolle tuotoksen kanssa, kuin olisimme halunneet.
 
+### Projektin myöhästyminen
+Ryhmän vältettävän projektin- ajanhallinnan takia keskityimme liikaa epäolennaisiin asioihin. Käytimme liikaa aikaa liian spesifeihin asioihin, sen sijaan, että saimme korkealla tasolla projektin vaaditut ominaisuudet toiminaan. Myönnämme, että projekti olisi varmasti mennyt paremmin, jos ryhmä ei olisi osallistunut ATK-YTP:lle ja KJYR:iin. Toivomme myös Ohjelmistotuotannon menetelmät -kurssin edesauttavan ajan- ja projektinhallinnassa tulevien kurssien harjoitustöissä.
+
 ## Front-end
 
 ### Miten Reactilla vaihdetaan renderöityjä komponentteja?
